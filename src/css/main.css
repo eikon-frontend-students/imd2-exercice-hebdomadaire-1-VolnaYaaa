@@ -3,12 +3,44 @@
   margin: 0;
   padding: 0;
 }
-
-a {
-  color: inherit;
+body {
+  
 }
+.card {
+display: flex;
+width: 370px;
+padding: 15px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #FFF;
+box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.05);
+font-family: "Roboto", sans-serif;
 
-img,
-video {
-  display: block;
+font-style: normal;  
+}
+.author {
+display: flex;
+width: 330px;
+align-items: center;
+gap: 20px;
+}
+h2 {
+font-size: 27px;
+font-weight: normal;
+}
+.description p:nth-child(2) {
+ color: rgba(0, 0, 0, 0.50);
+ font-size: 16px;
+}
+.description p:nth-child(1) {
+ font-size: 20px;
+ color: #000000;
+}
+.description {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
 }
